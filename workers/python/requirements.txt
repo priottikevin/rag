@@ -1,0 +1,10 @@
+onnxruntime>=1.20
+tokenizers
+huggingface_hub
+numpy
+pypdfium2
+python-docx
+openpyxl
+pillow
+olefile
+rapidocr

@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+tools/
+data/
+# jeu de test privé (questions et fichiers attendus issus de documents personnels) : un exemple générique est fourni
+bench/queries.json
+bench/stress_*
+bench/.venv/
+bench/*.npy
+bench/extract_results.json
+workers/python/.venv/
+*.log

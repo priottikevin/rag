@@ -1,0 +1,12 @@
+{
+  "name": "rag",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "dev:api": "npm run dev -w @rag/api",
+    "dev:web": "npm run dev -w @rag/web",
+    "build": "npm run build -w @rag/shared && npm run build -w @rag/api && npm run build -w @rag/web",
+    "typecheck": "npm run typecheck --workspaces --if-present"
+  }
+}

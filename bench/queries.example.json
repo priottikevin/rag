@@ -1,0 +1,5 @@
+[
+  {"q": "Quel est le montant total de la facture de mars ?", "exp": ["facture_2024_03"]},
+  {"q": "Contrat de maintenance de l'application", "exp": ["contrat_maintenance"]},
+  {"q": "Quittance de loyer de janvier", "exp": ["quittance_202401"]}
+]
