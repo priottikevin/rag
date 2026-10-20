@@ -8,6 +8,9 @@ Dernière mise à jour : 2026-10-20
 ## Lancer le projet
 `powershell -File scripts\start.ps1` → interface http://localhost:5173 (API 3001, PostgreSQL 54330). Logs : `data/api.log`, `data/web.log`, `data/pg.log`. Arrêt : `scripts\db.ps1 stop` + fermer les processus node. Prérequis déjà en place : `tools/pgsql` (hors git), `workers/python/.venv`, `npm install`.
 
+## Dernier test de charge
+R-03 : 2 929 fichiers indexés en ≈ 3 h 20 (OCR dominant), base 112 Mo, aucun plantage. Voir `docs/research/R-03_test-de-charge.md`. Dépôt GitHub public : https://github.com/priottikevin/rag (aucune donnée personnelle ; jeu de test privé `bench/queries.json` ignoré).
+
 ## Prochaines actions
 1. S-06/I-11 : améliorer le classement (MRR 0,54 → >0,7) et plafonner les gros fichiers de données.
 2. Clé Gemini : créer `.env` (modèle `.env.example`) → active la réponse rédigée (code et filtre de secrets déjà prêts).

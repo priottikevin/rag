@@ -70,3 +70,5 @@ Dernière mise à jour : 2026-10-20
 | I-11 | (fait en partie : passages à <35 % de lettres non vectorisés ; pénalité dense) Limiter l'impact des gros CSV/JSON/SQL (chunks massifs) : plafond de chunks par document, type « données » moins prioritaire | ⬜ |
 | I-12 | Index HNSW sur `chunks.embedding` après indexation de masse + `ANALYZE` | ⬜ |
 | I-13 | Drag&drop de fichiers isolés (copie dans `data/inbox` ou sélection de fichiers via dialogue natif) — voir Q-31 | ⬜ |
+| I-14 | Optimiser l'OCR : sauter les photos sans texte, répartir les cœurs OCR/embeddings (voir R-03 §pistes) | ⬜ |
+| T-04 | Test de charge 20-50 k fichiers puis 100 k | ⬜ |
